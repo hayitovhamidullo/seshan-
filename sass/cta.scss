@@ -1,0 +1,203 @@
+.cta{
+    background-image: url(../imges/cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-353px ;
+    .container{
+        padding-top: 192px;
+        padding-bottom: 100px;
+        max-width: 430px;
+        margin: 0 auto;
+        .cta_text{
+            h3{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+            h2{
+                max-width: 328px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: -0.5px;
+                margin-bottom: 32px;
+            }
+            a{
+                display: flex;
+                height: 40px;
+                padding: 6px 16px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 181px;
+                max-height: 40px;
+                border-radius: 24px;
+                background:#F3F3F3;
+                margin: 0 auto;
+                color: black;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:744px){
+    .cta{
+        background-image: url(../imges/cta.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x:0px ;
+        .container{
+            padding-top: 192px;
+            padding-bottom: 100px;
+            max-width: 744px;
+            margin: 0 auto;
+            .cta_text{
+                h3{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    text-align: center;
+                    margin-bottom: 12px;
+                }
+                h2{
+                    max-width: 600px;
+                    text-align: center;
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 48px;
+                    letter-spacing: -0.5px;
+                    margin: 0 auto;
+                    padding-bottom: 33px;
+                }
+                a{
+                    display: flex;
+                    height: 40px;
+                    padding: 6px 16px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 181px;
+                    max-height: 40px;
+                    border-radius: 24px;
+                    background:#F3F3F3;
+                    margin: 0 auto;
+                    color: black;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1025px){
+    .cta{
+        background-image: url(../imges/cta.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x:0px ;
+        .container{
+            padding-top: 192px;
+            padding-bottom: 100px;
+            max-width: 1025px;
+            margin: 0 auto;
+            .cta_text{
+                h3{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    text-align: center;
+                    margin-bottom: 12px;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 48px;
+                    letter-spacing: -0.5px;
+                }
+                a{
+                    display: flex;
+                    height: 40px;
+                    padding: 6px 16px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 181px;
+                    max-height: 40px;
+                    border-radius: 24px;
+                    background:#F3F3F3;
+                    margin: 0 auto;
+                    color: black;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1440px){
+    .cta{
+        background-image: url(../imges/cta.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x:0px ;
+        .container{
+            padding: 192px 450px;
+            max-width: 1440px;
+            margin: 0 auto;
+            .cta_text{
+                h3{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    text-align: center;
+                    margin-bottom: 12px;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 48px;
+                    letter-spacing: -0.5px;
+                }
+                a{
+                    display: flex;
+                    height: 40px;
+                    padding: 6px 16px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 181px;
+                    max-height: 40px;
+                    border-radius: 24px;
+                    background:#F3F3F3;
+                    margin: 0 auto;
+                    color: black;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+            }
+        }
+    }
+}

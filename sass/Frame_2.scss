@@ -1,0 +1,340 @@
+main{
+    .Frame_2{
+        background-color: #F3F3F3;
+        .container{
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px 0 20px 0;
+            .Frame_2_text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                .Nutritional_Values{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    padding: 20PX 0 20PX 0;
+                    h2{
+                        max-width: 200px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .Chat_with_Experts{
+                    padding: 20PX 0 20PX 0;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        max-width: 200px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .Recipes{
+                    padding: 20PX 0 20PX 0;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        max-width: 200px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:744px){
+    .Frame_2{
+        .container{
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px 0 20px 0;
+            .Frame_2_text{
+                .Nutritional_Values{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        max-width: 200px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        max-width: 684px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                        margin: 0 auto;
+                    }
+                }
+                .Chat_with_Experts{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        max-width: 684px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        max-width: 684px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                        margin: 0 auto;
+                    }
+                }
+                .Recipes{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        max-width: 200px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px; 
+                        display: flex;
+                        column-gap: 16px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        max-width: 684px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1024px){
+    main{
+            .Frame_2{
+                .container{
+                    max-width: 90%;
+                    margin: 0 auto;
+                    padding: 40px 0 40px 0;
+                    .Frame_2_text{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .Nutritional_Values{
+                            display: flex;
+                            flex-direction: column;
+                            column-gap: 61px;
+                            h2{
+                                text-align: start;
+                                max-width: 200px;
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px; 
+                                display: flex;
+                                column-gap: 16px;
+                                margin: 1px;
+                            }
+                            p{
+                                max-width: 280px;
+                                color: #000;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px; 
+                                letter-spacing: 0.1px;
+                            }
+                        }
+                    .Chat_with_Experts{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 10px;
+                        h2{
+                            max-width: 200px;
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px; 
+                            display: flex;
+                            column-gap: 16px;
+                            margin: 1px;
+                        }
+                        p{
+                            max-width: 280px;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px; 
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                    .Recipes{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 10px;
+                        h2{
+                            max-width: 200px;
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px; 
+                            display: flex;
+                            column-gap: 16px;
+                            margin: 1px;
+                        }
+                        p{
+                            max-width: 280px;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px; 
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1440px){
+    main{
+            .Frame_2{
+                .container{
+                    max-width: 90%;
+                    margin: 0 auto;
+                    padding: 64px 150px;
+                    .Frame_2_text{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .Nutritional_Values{
+                            display: flex;
+                            flex-direction: column;
+                            column-gap: 61px;
+                            h2{
+                                text-align: start;
+                                max-width: 200px;
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px; 
+                                display: flex;
+                                column-gap: 16px;
+                                margin: 1px;
+                            }
+                            p{
+                                max-width: 360px;
+                                color: #000;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px; 
+                                letter-spacing: 0.1px;
+                            }
+                        }
+                    .Chat_with_Experts{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 10px;
+                        h2{
+                            max-width: 200px;
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px; 
+                            display: flex;
+                            column-gap: 16px;
+                            margin: 1px;
+                        }
+                        p{
+                            max-width: 360px;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px; 
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                    .Recipes{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 10px;
+                        h2{
+                            max-width: 200px;
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px; 
+                            display: flex;
+                            column-gap: 16px;
+                            margin: 1px;
+                        }
+                        p{
+                            max-width: 360px;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px; 
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

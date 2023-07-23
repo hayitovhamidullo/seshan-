@@ -1,0 +1,327 @@
+.Frame_20{
+    .container{
+        max-width: 90%;
+        padding: 30px 0px ;
+        margin: 0 auto;
+        .Frame_20_text{
+            .Patty_Sultan{
+                background-color: $bacgrand_cta;
+                border-radius: 8px;
+                padding: 24px;
+                max-width: 340px;
+                h3{
+                    max-width: 292px;
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 56px;
+                }
+                img{
+                    width: 64px;
+                    height: 64px;
+                }
+                h2{
+                    margin-top: 16px;
+                    color: #000;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px; 
+                    letter-spacing: 0.1px;
+                }
+            }
+            .Jess_Fonseca{
+                display: none;
+            }
+            .David_Cole{
+                display: none;
+            }
+
+        }
+        p{
+            max-width: 84px;
+            transform: translateY(30px);
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (min-width:744px){
+    .Frame_20{
+        .container{
+            max-width: 90%;
+            padding: 30px 0px ;
+            margin: 0 auto;
+            .Frame_20_text{
+                display: flex;
+                justify-content: space-between;
+                column-gap: 30px;
+                .Patty_Sultan{
+                    max-width: 340px;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .Jess_Fonseca{
+                    max-width: 340px;
+                    display: inline-block;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .David_Cole{
+                    display: none;
+                }
+    
+            }
+            p{
+                max-width: 84px;
+                transform: translateY(30px);
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .Frame_20{
+        .container{
+            max-width: 90%;
+            padding: 48px 0px;
+            margin: 0 auto;
+            .Frame_20_text{
+                display: flex;
+                justify-content: space-between;
+                column-gap: 30px;
+                .Patty_Sultan{
+                    max-width: 340px;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .Jess_Fonseca{
+                    max-width: 340px;
+                    display: inline-block;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .David_Cole{
+                    display: inline-block;
+                    max-width: 340px;
+                    display: inline-block;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+    
+            }
+            p{
+                max-width: 84px;
+                transform: translateY(30px);
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@media screen and (min-width:1440px){
+    .Frame_20{
+        .container{
+            max-width: 90%;
+            padding: 96px 150px;
+            margin: 0 auto;
+            .Frame_20_text{
+                display: flex;
+                justify-content: space-between;
+                column-gap: 30px;
+                .Patty_Sultan{
+                    max-width: 340px;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .Jess_Fonseca{
+                    max-width: 340px;
+                    display: inline-block;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+                .David_Cole{
+                    display: inline-block;
+                    max-width: 340px;
+                    display: inline-block;
+                    background-color: $bacgrand_cta;
+                    border-radius: 8px;
+                    padding: 24px;
+                    h3{
+                        max-width: 292px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 56px;
+                    }
+                    img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    h2{
+                        margin-top: 16px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+    
+            }
+            p{
+                max-width: 84px;
+                transform: translateY(30px);
+                margin: 0 auto;
+            }
+        }
+    }
+}
